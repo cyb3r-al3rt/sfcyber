@@ -1,4 +1,4 @@
-/* SF Cyber Advisory - Website Styles */
+/* SF Cyber Advisory - Complete Website Styles */
 
 * {
     margin: 0;
@@ -134,11 +134,13 @@ main {
 }
 
 /* Service Cards */
-.services-preview {
+.services-preview,
+.why-choose {
     margin: 3rem 0;
 }
 
-.services-preview h2 {
+.services-preview h2,
+.why-choose h2 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -183,6 +185,13 @@ main {
     color: #764ba2;
 }
 
+.price-range {
+    color: #667eea;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
 /* Page Header */
 .page-header {
     text-align: center;
@@ -220,12 +229,53 @@ main {
     margin-bottom: 1rem;
 }
 
+.service-item h3 {
+    color: #667eea;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
 .service-item ul {
     margin: 1rem 0 1rem 2rem;
 }
 
 .service-item li {
     margin-bottom: 0.5rem;
+}
+
+.service-tagline {
+    font-size: 1.1rem;
+    color: #667eea;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.service-meta {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1.5rem 0;
+}
+
+.service-meta p {
+    margin-bottom: 0.5rem;
+}
+
+/* Pricing Section */
+.pricing-section {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 3rem 0;
+}
+
+.pricing-section h2 {
+    color: #1a1a2e;
+    margin-bottom: 1rem;
+}
+
+.pricing-section ul {
+    margin: 1rem 0 1rem 2rem;
 }
 
 /* Service Detail */
